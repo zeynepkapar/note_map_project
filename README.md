@@ -1,20 +1,15 @@
-# <b> 📍 Note Map Project </b>
+# Note Map Project
+Bu uygulama, kullanıcının mevcut konumuna izin vermediğinde varsayılan olarak Ankara'yı merkeze alarak haritada gezinmesine olanak tanır. Kullanıcı, harita üzerinde herhangi bir konuma not ekleyebilir ve bu notları kaydedebilir.
 
- <h1> In this project, the structure is built with **HTML**, styled with **CSS**, and made dynamic using the **Leaflet library** & **JavaScript**. </h1>
+# Özellikler
+- Konum Tespiti: Kullanıcı konum izni verirse harita, kullanıcının mevcut konumunu gösterir. Konum izni verilmezse, başlangıç noktası Ankara olarak belirlenir.
+- Not Ekleme: Haritada herhangi bir noktaya tıklayarak o konuma not ekleyebilirsiniz.
+- Notlar Bölümü: Eklenen tüm notlar, özel bir simge ile haritada işaretlenir ve "Notlar" başlığı altında listelenir. Bu sayede tüm notlara kolayca ulaşabilirsiniz.
+- LocalStorage Desteği: Eklediğiniz notlar LocalStorage'a kaydedilir ve sayfa yenilendiğinde veri kaybı yaşanmaz.
+- Not Silme: Notları gerektiğinde silebilmek için silme simgesi mevcuttur.
+- Not Ekleme Bölümü: Not ekleme alanı, kullanım kolaylığı sağlamak için açılıp kapanabilir şekilde tasarlanmıştır.
+- Konuma Odaklanma: Uçuş simgesine tıklayarak, işaretlenen konuma hızlıca odaklanabilirsiniz.
+- Duyarlı Tasarım: Proje, mobil cihazlar da dahil olmak üzere her ekran boyutunda sorunsuz çalışacak şekilde tasarlanmıştır.
 
-<h4>
- <ul>
-  <li>🗺️ When the user grants location access, the map starts from the current location; otherwise, it centers on **Ankara**. </li>
-  <li> 📍 You can mark any location on the map and add related notes.</li>
-  <li> 📝 Added notes appear in a "Notes" section on the map for easy tracking. </li>
-  <li> 📌 Each note is marked with a custom icon, allowing for easier route tracking.</li>
-  <li> 💾 Notes are saved in **LocalStorage**, preventing data loss.</li>
-  <li> 🗑️ You can delete notes using the delete icon if needed.</li>
-  <li> 🔄 The note-taking section is designed to open/close for user convenience.</li>
-  <li> ✈️ Using the flight icon, the map focuses on the marked location.</li>
-  <li> 📱 The project is **responsive** and functions well on **mobile devices**.</li>
- </ul>
-</h4>
+# Gif
 
-### 🔗 [View the Live Project](NoteMap.gif)
-# note_map_project
