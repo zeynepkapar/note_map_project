@@ -13,3 +13,6 @@ Bu uygulama, kullanıcının mevcut konumuna izin vermediğinde varsayılan olar
 
 # Gif
 
+![Zight Recording 2024-10-19 at 06 50 27 PM](https://github.com/user-attachments/assets/62b88068-d949-4f89-91d4-95cebb786832)
+
+
